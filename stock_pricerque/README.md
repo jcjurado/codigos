@@ -1,54 +1,62 @@
-# StockPricerque Crew
+# 📈 StockPricerque: Inteligencia Colaborativa para Análisis Bursátil
 
-Welcome to the StockPricerque Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+**StockPricerque** es un sistema avanzado de agentes autónomos diseñado para automatizar el análisis financiero y la evaluación de activos. Utilizando el framework **crewAI**, este proyecto coordina múltiples especialistas digitales que colaboran en tiempo real para transformar datos crudos de mercado en informes estratégicos y accionables.
 
-## Installation
+---
 
-Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+## 🚀 Configuración e Instalación
 
-First, if you haven't already, install uv:
+Este proyecto utiliza **UV** para una gestión de dependencias moderna y eficiente, garantizando un entorno de ejecución estable y de alto rendimiento.
 
-```bash
-pip install uv
-```
+### 1. Requisitos de Entorno
+* Python **3.10** a **3.13**
+* Instalación de UV: Ejecuta **pip install uv** en tu terminal.
 
-Next, navigate to your project directory and install the dependencies:
+### 2. Instalación de la Crew
+Clona el repositorio y ejecuta el instalador automático **crewai install** para configurar el entorno virtual y las dependencias necesarias.
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
+### 3. Variables de Entorno
+Configura tus credenciales de API en un archivo llamado **.env** en la raíz del proyecto para habilitar el acceso a los modelos de lenguaje:
+* **OPENAI_API_KEY**=tu_clave_aqui
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+---
 
-- Modify `src/stock_pricerque/config/agents.yaml` to define your agents
-- Modify `src/stock_pricerque/config/tasks.yaml` to define your tasks
-- Modify `src/stock_pricerque/crew.py` to add your own logic, tools and specific args
-- Modify `src/stock_pricerque/main.py` to add custom inputs for your agents and tasks
+## 🛠️ Arquitectura de la Solución
 
-## Running the Project
+A diferencia de las automatizaciones lineales convencionales, **StockPricerque** opera mediante una estructura de agentes con roles especializados que interactúan entre sí:
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+* **Configuración de Agentes (agents.yaml):** Define las capacidades, roles y "backstory" de cada experto (ej. Analistas de Riesgo, Investigadores de Mercado o Especialistas en Sentimiento).
+* **Definición de Tareas (tasks.yaml):** Establece el flujo de trabajo lógico, los criterios de éxito y la secuencia de colaboración entre los agentes.
+* **Lógica de Negocio (crew.py):** El núcleo del sistema donde se integran herramientas personalizadas y se orquesta el comportamiento inteligente de la tripulación.
+* **Entradas de Datos (main.py):** El punto de acceso principal para definir los parámetros y variables específicos de cada ejecución.
 
-```bash
-$ crewai run
-```
+---
 
-This command initializes the stock_pricerque Crew, assembling the agents and assigning them tasks as defined in your configuration.
+## 💻 Ejecución y Resultados
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+Para activar la tripulación de agentes y comenzar el proceso de investigación y análisis bursátil, ejecuta el comando **crewai run** desde la carpeta raíz.
 
-## Understanding Your Crew
+Al finalizar, el sistema consolidará la inteligencia colectiva en un archivo de salida (por defecto **report.md**), proporcionando una visión integral, técnica y objetiva del mercado o activo analizado.
 
-The stock_pricerque Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+---
 
-## Support
+## ⚙️ Adaptación y Escalabilidad
 
-For support, questions, or feedback regarding the StockPricerque Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+El sistema es altamente modular y permite una personalización profunda para adaptarse a diferentes necesidades financieras:
 
-Let's create wonders together with the power and simplicity of crewAI.
+1. **Nuevos Expertos:** Añade especialistas en sectores específicos modificando **src/stock_pricerque/config/agents.yaml**.
+2. **Flujos a Medida:** Ajusta los objetivos y la profundidad del análisis en **src/stock_pricerque/config/tasks.yaml**.
+3. **Herramientas Externas:** Integra APIs financieras propietarias o fuentes de datos alternativas dentro de **src/stock_pricerque/crew.py**.
+
+---
+
+## 🌐 Soporte y Ecosistema
+
+Este desarrollo se apoya en la robustez de **crewAI**. Para explorar capacidades avanzadas o resolver dudas técnicas:
+
+* **Documentación Técnica:** Visita docs.crewai.com
+* **Repositorio Oficial:** github.com/joaomdmoura/crewai
+* **Comunidad:** Únete al Discord oficial de crewAI.
+
+---
+**Desarrollado para maximizar la eficiencia en el análisis de datos financieros mediante IA colaborativa.**
