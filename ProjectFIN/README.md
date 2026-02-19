@@ -2,6 +2,14 @@
 
 Poyecto personal sobre agentes usando crewai. Los mismos trabajan para buscar noticias sobre empresas, evalua el mercado y da un veredicto.
 Se usa la herramienta PUSH para envia mensajes al celular sobre el veredicto final y genera un documento .md sobre un informe as profundo
+
+Mensaje al celular
+<img width="850" height="405" alt="image" src="https://github.com/user-attachments/assets/3abeb52c-74e6-41ff-a4fa-3a9f359f7b1c" />
+
+Informe markdown final
+
+<img width="665" height="606" alt="image" src="https://github.com/user-attachments/assets/aaf7e626-763b-48d7-bc50-5ac341f244ce" />
+
 ## Instalación
 
 Asegúrate de tener Python >=3.10 <3.14 instalado en tu sistema. Este proyecto utiliza [UV](https://docs.astral.sh/uv/) para la gestión de dependencias y paquetes, ofreciendo una experiencia de configuración y ejecución sin complicaciones.
@@ -40,4 +48,5 @@ Este ejemplo, sin modificaciones, creará un archivo `report.md` con el resultad
 ## Entendiendo Crew
 
 El stock_pricerque Crew está compuesto por múltiples agentes de IA, cada uno con roles, objetivos y herramientas únicos. Estos agentes colaboran en una serie de tareas, definidas en `config/tasks.yaml`, aprovechando sus habilidades colectivas para alcanzar objetivos complejos. El archivo `config/agents.yaml` detalla las capacidades y configuraciones de cada agente en tu crew.
+
 
