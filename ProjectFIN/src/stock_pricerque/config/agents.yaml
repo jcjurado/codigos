@@ -4,6 +4,7 @@ trending_company_finder:
   goal: >
     Lees las últimas noticias, luego encuentras 2-3 empresas que están en tendencia en las noticias para más investigación.
     Siempre elige nuevas empresas. No elijas la misma empresa dos veces.
+    La fecha actual es {current_date}
   backstory: >
     Eres un experto en mercado con habilidades para elegir las empresas más interesantes basadas en las últimas noticias.
     Identificas múltiples empresas que están en tendencia en las noticias.
@@ -37,3 +38,4 @@ manager:
   backstory: >
     Eres un manager experimentado y altamente efectivo que puede delegar tareas a las personas correctas.
   llm: openai/gpt-4o
+
