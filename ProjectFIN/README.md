@@ -1,54 +1,41 @@
 # StockPricerque Crew
 
-Welcome to the StockPricerque Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Poyecto personal sobre agentes usando crewai. Los mismos trabajan para buscar noticias sobre empresas, evalua el mercado y da un veredicto.
+## Instalación
 
-## Installation
+Asegúrate de tener Python >=3.10 <3.14 instalado en tu sistema. Este proyecto utiliza [UV](https://docs.astral.sh/uv/) para la gestión de dependencias y paquetes, ofreciendo una experiencia de configuración y ejecución sin complicaciones.
 
-Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
-
-First, if you haven't already, install uv:
-
+Primero, si aún no lo has hecho, instala uv:
 ```bash
 pip install uv
 ```
 
-Next, navigate to your project directory and install the dependencies:
+Luego, navega al directorio de tu proyecto e instala las dependencias:
 
-(Optional) Lock the dependencies and install them by using the CLI command:
+(Opcional) Bloquea las dependencias e instálalas usando el comando CLI:
 ```bash
 crewai install
 ```
-### Customizing
+### Personalización
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+**Agrega tu `OPENAI_API_KEY` en el archivo `.env`**
 
-- Modify `src/stock_pricerque/config/agents.yaml` to define your agents
-- Modify `src/stock_pricerque/config/tasks.yaml` to define your tasks
-- Modify `src/stock_pricerque/crew.py` to add your own logic, tools and specific args
-- Modify `src/stock_pricerque/main.py` to add custom inputs for your agents and tasks
+- Modifica `src/stock_pricerque/config/agents.yaml` para definir tus agentes
+- Modifica `src/stock_pricerque/config/tasks.yaml` para definir tus tareas
+- Modifica `src/stock_pricerque/crew.py` para agregar tu propia lógica, herramientas y argumentos específicos
+- Modifica `src/stock_pricerque/main.py` para agregar entradas personalizadas para tus agentes y tareas
 
-## Running the Project
+## Ejecutar el Proyecto
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
-
+Para iniciar tu crew de agentes de IA y comenzar la ejecución de tareas, ejecuta esto desde la carpeta raíz de tu proyecto:
 ```bash
 $ crewai run
 ```
 
-This command initializes the stock_pricerque Crew, assembling the agents and assigning them tasks as defined in your configuration.
+Este comando inicializa el stock_pricerque Crew, ensamblando los agentes y asignándoles tareas según lo definido en tu configuración.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+Este ejemplo, sin modificaciones, creará un archivo `report.md` con el resultado de una investigación sobre LLMs en la carpeta raíz.
 
-## Understanding Your Crew
+## Entendiendo Crew
 
-The stock_pricerque Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the StockPricerque Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+El stock_pricerque Crew está compuesto por múltiples agentes de IA, cada uno con roles, objetivos y herramientas únicos. Estos agentes colaboran en una serie de tareas, definidas en `config/tasks.yaml`, aprovechando sus habilidades colectivas para alcanzar objetivos complejos. El archivo `config/agents.yaml` detalla las capacidades y configuraciones de cada agente en tu crew.
