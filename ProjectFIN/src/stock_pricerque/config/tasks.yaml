@@ -19,11 +19,15 @@ research_trending_companies:
 
 pick_best_company:
   description: >
-    Analiza los hallazgos de la investigación y elige la mejor empresa para inversión.
-    Envía una notificación push al usuario con la decisión y un razonamiento de 1 frase.
-    Luego responde con un informe detallado sobre por qué elegiste esta empresa, y cuáles empresas no fueron seleccionadas.
+    1. Analiza los hallazgos de la investigación.
+    2. ELIGE la mejor empresa.
+    3. ES OBLIGATORIO usar la herramienta 'Enviar una notificación push' ANTES de escribir el reporte. 
+       No puedes finalizar la tarea sin haber llamado a esta herramienta con el mensaje de decisión.
+    4. Finalmente, redacta el informe markdown detallado.
   expected_output: >
     La empresa elegida y por qué fue elegida; las empresas que no fueron seleccionadas y por qué no fueron seleccionadas.
+    Escribe el contenido del archivo en formato markdown. Separa con titulos las empresas seleccionadas y las no seleccionadas
+    Cada empresa seleccionada estara acompañada y resaltada de por que fue elegida
   agent: stock_picker
   context:
     - research_trending_companies
