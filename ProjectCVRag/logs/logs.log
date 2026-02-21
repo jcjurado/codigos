@@ -1,0 +1,11 @@
+2026-02-20 23:34:19 | INFO     | Config RAG | \U0001f4c2 Cargando vector store existente...
+2026-02-20 23:34:19 | INFO     | chromadb.telemetry.product.posthog | Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-20 23:34:19 | INFO     | Config RAG | \U0001f916 RAG listo
+
+2026-02-20 23:34:20 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-20 23:34:20 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-20 23:34:20 | INFO     | httpx | HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-02-20 23:34:20 | INFO     | httpx | HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-02-20 23:34:20 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-02-20 23:34:20 | INFO     | httpx | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-02-20 23:34:20 | INFO     | httpx | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"

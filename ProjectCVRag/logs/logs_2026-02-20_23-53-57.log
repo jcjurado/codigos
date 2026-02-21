@@ -1,0 +1,6 @@
+2026-02-20 23:53:57 | INFO     | Config RAG | 📂 Cargando vector store existente...
+2026-02-20 23:53:57 | INFO     | chromadb.telemetry.product.posthog | Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-20 23:53:58 | INFO     | Config RAG | 🤖 RAG listo
+
+2026-02-20 23:53:58 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-20 23:53:58 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"

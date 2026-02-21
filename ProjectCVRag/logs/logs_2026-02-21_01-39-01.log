@@ -1,0 +1,12 @@
+2026-02-21 01:39:01 | INFO     | Config RAG | 📂 Indexando documentos por primera vez...
+2026-02-21 01:39:01 | INFO     | Config RAG | ✅ 4 páginas PDF cargadas
+2026-02-21 01:39:01 | INFO     | Config RAG | ✅ 1 archivos TXT cargados
+2026-02-21 01:39:01 | INFO     | Config RAG | 📄 Total: 5 documentos
+2026-02-21 01:39:01 | INFO     | Config RAG | ✅ 13 chunks generados
+2026-02-21 01:39:01 | INFO     | chromadb.telemetry.product.posthog | Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-21 01:39:04 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2026-02-21 01:39:05 | INFO     | Config RAG | ✅ Vector store creado en './chroma_db'
+2026-02-21 01:39:05 | INFO     | Config RAG | 🤖 RAG listo
+
+2026-02-21 01:39:05 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-02-21 01:39:06 | INFO     | httpx | HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
