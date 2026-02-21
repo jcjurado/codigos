@@ -4,6 +4,8 @@ app_file: app.py
 sdk: gradio
 sdk_version: 6.5.1
 ---
+<img width="1162" height="691" alt="image" src="https://github.com/user-attachments/assets/1b815ddb-0514-4009-9715-e1f1cb0fb8ac" />
+
 # 🤖Chatbot Personal con RAG
 Chatbot personal basado en IA que responde preguntas sobre experiencia, habilidades y proyectos de **Juan Cruz Jurado Auzza**, utilizando Retrieval-Augmented Generation (RAG) sobre documentos propios (CV, resumen profesional, etc.).
 ## 🧠 ¿Cómo funciona?
