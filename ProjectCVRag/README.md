@@ -1,6 +1,6 @@
 # 🤖Chatbot Personal con RAG
 
-<img width="1162" height="618" alt="image" src="https://github.com/user-attachments/assets/3ec13892-23e2-4340-8f7e-c986e778c50d" />
+<img width="962" height="418" alt="image" src="https://github.com/user-attachments/assets/3ec13892-23e2-4340-8f7e-c986e778c50d" />
 
 Chatbot personal basado en IA que responde preguntas sobre experiencia, habilidades y proyectos de **Juan Cruz Jurado Auzza**, utilizando Retrieval-Augmented Generation (RAG) sobre documentos propios (CV, resumen profesional, etc.).
 ## 🧠 ¿Cómo funciona?
