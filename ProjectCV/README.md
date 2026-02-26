@@ -103,6 +103,3 @@ El bot tiene dos herramientas que puede invocar durante la conversación:
 - El evaluador usa `response_format=Evaluation` con Pydantic para forzar una respuesta estructurada (`is_acceptable` + `feedback`). Si el modelo no soporta structured outputs esto falla.
 - En Hugging Face el archivo `app.py` tiene que estar en la raíz del Space y Gradio tiene que terminar con `demo.launch()` sin parámetros de host/port para que el entorno lo detecte correctamente.
 - Este proyecto es una prueba de concepto. El contexto del bot está hardcodeado con nombre y archivos específicos; para adaptarlo a otro candidato basta con cambiar `self.name` y los archivos en la carpeta `me/`.
-
-2f6d4ddbfdb8" />
-
