@@ -1,7 +1,7 @@
 
 # 🤖AI Portfolio Chat
 
-<img width="901" height="442" alt="image" src="https://github.com/user-attachments/assets/72d08259-86a3-400a-834e->
+<img width="901" height="442" alt="image" src="https://github.com/user-attachments/assets/72d08259-86a3-400a-834e-2f6d4ddbfdb8" />
 
 Chatbot conversacional que simula una entrevista con el candidato. Está entrenado con mi CV y un resumen personal, responde preguntas sobre experiencia y habilidades, y me notifica al celular cuando alguien del otro lado deja su nombre o empresa.
 
