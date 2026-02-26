@@ -73,6 +73,66 @@ etl-covid/
 | `vaccination_ratio` | DECIMAL(10,4) |
 | `created_at` | TIMESTAMP |
 
+---
+
+## Cómo correrlo
+
+### 1. Levantar las bases con Docker Desktop
+
+```bash
+# PostgreSQL
+docker run --name pg_covid \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=postgres \
+  -p 5432:5432 \
+  -d postgres:15
+
+# MySQL
+docker run --name mysql_covid \
+  -e MYSQL_ROOT_PASSWORD=root \
+  -e MYSQL_DATABASE=prueba_conexion \
+  -p 3306:3306 \
+  -d mysql:8
+```
+
+### 2. Cargar los datos de prueba
+
+Los scripts DDL y DML están en `datos_prueba.txt`, separados por secciones. Ejecutar primero los de PostgreSQL (tablas fuente) y después los de MySQL (tabla destino vacía).
+
+```bash
+# PostgreSQL
+docker exec -i pg_covid psql -U postgres -d postgres < datos_prueba_pg.sql
+
+# MySQL
+docker exec -i mysql_covid mysql -u root -proot prueba_conexion < datos_prueba_mysql.sql
+```
+
+### 3. Configurar credenciales
+
+Crear un archivo `.env` en la raíz con este contenido:
+
+```
+PG_USER=postgres
+PG_PASS=postgres
+PG_HOST=localhost
+PG_PORT=5432
+
+MYSQL_USER=root
+MYSQL_PASS=root
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+```
+
+### 4. Instalar dependencias y ejecutar
+
+```bash
+pip install -r requirements.txt
+mkdir logs
+python main.py
+```
+
+---
+
 ## Módulos
 
 **`main.py`** — Define las tablas a extraer y la tabla destino, y llama a las tres etapas en orden. Si querés adaptar el pipeline a otro proyecto, este es el archivo que más vas a tocar.
@@ -92,6 +152,9 @@ Cada ejecución genera un archivo en `logs/` con el nombre `etl_covid_YYYYMMDD_H
 ```
 2024-01-15 10:23:01 | INFO     | Etl_Covid | ✅ Conexión a la base de datos exitosa
 ```
+
+---
+
 ## Usar como plantilla
 
 El flujo está pensado para ser fácil de reutilizar:
