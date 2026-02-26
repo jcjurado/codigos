@@ -1,10 +1,3 @@
----
-title: rag_chat
-app_file: app.py
-sdk: gradio
-sdk_version: 6.5.1
----
-
 <img width="1162" height="618" alt="image" src="https://github.com/user-attachments/assets/3ec13892-23e2-4340-8f7e-c986e778c50d" />
 
 
