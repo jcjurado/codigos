@@ -23,11 +23,16 @@ Extrae dos tablas (`covid_cases` y `vaccination_data`) desde una base PostgreSQL
 
 ```
 etl-covid/
-├── main.py              # Orquestador, acá se configura qué tablas entran y cuál es el destino
-├── procesos_etl.py      # extract(), transform y load()
-├── base_config.py       # Conexiones a PostgreSQL y MySQL
+├── extract
+    ├── extract.py
+├── transform
+    ├── transform.py
+├── load
+    ├── load.py
+├── config
+    ├── base_config.py       # Conexiones a PostgreSQL y MySQL
+├── Orq_Etl.py      # Orquestador, acá se configura qué tablas entran y cuál es el destino
 ├── logging_config.py    # Logger con salida a consola y archivo
-├── datos_prueba.txt     # DDL y DML para armar el entorno de prueba
 └── logs/                # Se genera solo al correr el script
 ```
 
