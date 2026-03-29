@@ -1,0 +1,18 @@
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 🚀 Iniciando el proceso...
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 🔌 Conectando a la base de datos PostgreSQL...
+2026-03-29 11:50:38 | INFO     | Etl_Covid | ✅ Conexión a la base de datos exitosa
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 🔄 Iniciando proceso de extraccion con la base POSTGRESQL
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 📌  1. Extrayendo datos de la tabla vaccination_data
+2026-03-29 11:50:38 | INFO     | Etl_Covid |   ✅ 8 datos extraidos - POSTGRESQL
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 📌  2. Extrayendo datos de la tabla covid_cases
+2026-03-29 11:50:38 | INFO     | Etl_Covid |   ✅ 4 datos extraidos - POSTGRESQL
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 📌 Extracción finalizada
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 🔄 Iniciando proceso de transformacion
+2026-03-29 11:50:38 | INFO     | Etl_Covid |   ✅ 4 registros transformados
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 📌 Transformación finalizada
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 🔌 Conectando a la base de datos MySql...
+2026-03-29 11:50:38 | INFO     | Etl_Covid | ✅ Conexión a la base de datos exitosa
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 🔄 Iniciando proceso de carga a MYSQL
+2026-03-29 11:50:38 | INFO     | Etl_Covid | 📌  Cargando datos a la tabla covid_cases
+2026-03-29 11:50:38 | INFO     | Etl_Covid |  🖊  4 registros a procesar
+2026-03-29 11:50:40 | INFO     | Etl_Covid | ✅ Proceso Etl_Covid finalizado exitosamente
