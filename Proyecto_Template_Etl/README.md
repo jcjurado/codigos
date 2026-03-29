@@ -140,9 +140,13 @@ python main.py
 
 ## Módulos
 
-**`main.py`** — Define las tablas a extraer y la tabla destino, y llama a las tres etapas en orden. Si querés adaptar el pipeline a otro proyecto, este es el archivo que más vas a tocar.
+**`Orq_Etl.py`** — Define las tablas a extraer y la tabla destino, y llama a las tres etapas en orden. Si querés adaptar el pipeline a otro proyecto, este es el archivo que más vas a tocar.
 
-**`procesos_etl.py`** — Tiene `extract()`, `load()` y la clase `transform_covid`. La función `transform_setData()` hace el merge entre los dos datasets por `ID`, descarta nulos y normaliza los nombres de columnas duplicadas.
+**`extract.py`** — Realiza la carga de los datos de origen.
+
+**`transform_.py`** — La función `transform_setData()` hace el merge entre los dos datasets por `ID`, descarta nulos y normaliza los nombres de columnas duplicadas. Se puede adaptar de acuerdo a las necesidades
+
+** `load()`** — Realiza la carga de datos a destino.
 
 **`base_config.py`** — Clase `Base` con un método por motor. Fácil de extender si necesitás agregar SQL Server u otro.
 
