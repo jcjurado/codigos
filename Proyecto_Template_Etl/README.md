@@ -146,7 +146,7 @@ python main.py
 
 **`transform_.py`** — La función `transform_setData()` hace el merge entre los dos datasets por `ID`, descarta nulos y normaliza los nombres de columnas duplicadas. Se puede adaptar de acuerdo a las necesidades
 
-** `load()`** — Realiza la carga de datos a destino.
+**`load()`** — Realiza la carga de datos a destino.
 
 **`base_config.py`** — Clase `Base` con un método por motor. Fácil de extender si necesitás agregar SQL Server u otro.
 
