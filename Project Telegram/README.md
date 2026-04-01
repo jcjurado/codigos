@@ -112,9 +112,9 @@ GROQ_API_KEY = "tu_groq_api_key"
 GROQ_MODEL   = "llama-3.3-70b-versatile"   # o el modelo que prefieras
 
 # Telegram (via Telethon)
-API_ID    = 123456          # Tu API ID de Telegram
+API_ID    = 123456789          # Tu API ID de Telegram
 API_HASH  = "tu_api_hash"
-CANAL_ID  = -1001234567890  # ID del canal a monitorear
+CANAL_ID  = 123456789  # ID del canal a monitorear
 
 # Tavily
 TAVILY_API_KEY    = "tu_tavily_api_key"
