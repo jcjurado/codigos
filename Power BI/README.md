@@ -3,6 +3,15 @@
 Dashboard de análisis de ventas construido en **Power BI** sobre la base de datos **AdventureWorks2022**, con infraestructura de datos en Docker y publicación en Power BI Service / Microsoft Fabric.
 
 ---
+Dashboard
+<img width="642" height="255" alt="Dashboard_Fabric" src="https://github.com/user-attachments/assets/ef052540-039a-49d2-b9cd-a40ac39b770d" />   
+
+Reporte solapa Ventas
+<img width="642" height="255" alt="Reporte_Fabric" src="https://github.com/user-attachments/assets/2d4c19bd-a0ab-49b3-8d1e-9e23bf95149c" />
+
+Reporte solapa Detalle Ventas
+<img width="642" height="255" alt="Reporte_Fabric_ext" src="https://github.com/user-attachments/assets/4fbc5d90-fe9b-46cb-b200-af5fe7111813" />
+
 
 ## 🛠️ Herramientas y tecnologías
 
