@@ -76,7 +76,7 @@ El modelo sigue una arquitectura de **esquema estrella** con una tabla de hechos
 
 | Dimensión | Tablas de origen | Descripción |
 |---|---|---|
-| `Dim_Tiempos` | dax | fechas |
+| `Dim_Tiempos` | `Funcion Dax de tiempos` | Fechas |
 | `Dim_Productos` | `Production.Product` + `Production.ProductSubcategory` + `Production.ProductCategory` | Jerarquía completa de productos: categoría → subcategoría → producto |
 | `Dim_Customer` | `Sales.Customer` | Información de clientes |
 | `Dim_CreditCard` | `Sales.CreditCard` | Tipo de tarjeta de crédito usada en la venta |
