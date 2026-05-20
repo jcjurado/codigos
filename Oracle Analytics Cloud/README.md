@@ -37,8 +37,10 @@ El objetivo es analizar ventas, clientes, productos, promociones y canales de di
 ### Modelo Semantico
 #### Capa Fisica
 <img width="298" height="539" alt="image" src="https://github.com/user-attachments/assets/a8861dc0-f655-42dc-a89c-eb6d56444eae" />
+
 #### Capa de Negocio
 <img width="1008" height="644" alt="image" src="https://github.com/user-attachments/assets/c4ac85fe-62a9-4f0b-8213-de76a91c623b" />
+
 #### Capa de Presentacion
 <img width="981" height="434" alt="image" src="https://github.com/user-attachments/assets/48100f9f-8013-485f-a439-2c3cdd0631d8" />
 
