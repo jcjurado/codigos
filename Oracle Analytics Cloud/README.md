@@ -13,8 +13,6 @@
 - [Esquema Destino: DW\_SH](#esquema-destino-dw_sh)
 - [Mapas con GeoJSON de Argentina](#mapas-con-geojson-de-argentina)
 - [Dashboards en OAC](#dashboards-en-oac)
-- [Estructura del Repositorio](#estructura-del-repositorio)
-- [Cómo Reproducirlo](#cómo-reproducirlo)
 
 ---
 
