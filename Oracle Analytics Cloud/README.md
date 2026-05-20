@@ -25,6 +25,14 @@ El objetivo es analizar ventas, clientes, productos, promociones y canales de di
 ---
 
 ## Dashboards en OAC
+<img width="1339" height="691" alt="image" src="https://github.com/user-attachments/assets/2e92a634-863a-4326-beeb-813b574c4c31" />
+
+<img width="1355" height="697" alt="image" src="https://github.com/user-attachments/assets/411f5f99-7dfe-4b96-89a2-ab6f65d7c75f" />
+
+<img width="1082" height="655" alt="image" src="https://github.com/user-attachments/assets/875fa1cf-4459-471c-9918-400c52233fc4" />
+
+<img width="1075" height="697" alt="image" src="https://github.com/user-attachments/assets/67e1c3d4-021c-4202-9fda-759b6e02ea58" />
+
 
 ---
 
