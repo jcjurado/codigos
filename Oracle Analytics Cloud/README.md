@@ -61,7 +61,7 @@ El objetivo es analizar ventas, clientes, productos, promociones y canales de di
 | Esquema fuente | Oracle Sample Schema **SH** |
 | Modelado | Dimensional (Star Schema) |
 | Mapas | GeoJSON — Provincias de Argentina |
-| Lenguaje ETL | SQL / PL-SQL |
+| Lenguaje ETL | SQL |
 | Infraestructura | Oracle Cloud Infrastructure (OCI) |
 
 ---
