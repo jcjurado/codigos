@@ -7,12 +7,12 @@
 ## 🗂️ Tabla de Contenidos
 
 - [Descripción General](#descripción-general)
+- [Dashboards en OAC](#dashboards-en-oac)
 - [Arquitectura](#arquitectura)
 - [Stack Tecnológico](#stack-tecnológico)
 - [Esquema Fuente: SH](#esquema-fuente-sh)
 - [Esquema Destino: DW\_SH](#esquema-destino-dw_sh)
 - [Mapas con GeoJSON de Argentina](#mapas-con-geojson-de-argentina)
-- [Dashboards en OAC](#dashboards-en-oac)
 
 ---
 
@@ -21,6 +21,10 @@
 Este proyecto implementa una solución completa de **Data Warehouse y Analytics** sobre Oracle Cloud, tomando como fuente el esquema de ejemplo **SH (Sales History)** de Oracle y transformándolo en un esquema dimensional propio llamado **DW\_SH**.
 
 El objetivo es analizar ventas, clientes, productos, promociones y canales de distribución, con soporte de **visualización geográfica** a nivel de provincias argentinas mediante capas GeoJSON personalizadas en Oracle Analytics Cloud.
+
+---
+
+## Dashboards en OAC
 
 ---
 
@@ -297,9 +301,5 @@ Una de las funcionalidades destacadas del proyecto es la integración de **capas
 - Comparativa interanual por región geográfica
 
 ---
-
-## Dashboards en OAC
-
-
 
 > *Proyecto desarrollado con fines de aprendizaje y demostración de capacidades en Oracle Cloud, modelado dimensional y Business Intelligence.*
