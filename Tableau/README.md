@@ -85,8 +85,3 @@ AND YEAR([OrderDate]) <= [Año seleccionado]
 | Segmentación | Sets fijos y dinámicos |
 | Análisis temporal | YoY con filtro calculado booleano + parámetro |
 | Navegación | Drill through vía acciones de filtro, botón de navegación entre dashboards |
-
-## Próximos pasos posibles
-- Extender el patrón de YoY a QoQ / MTD / YTD con parámetro de fecha de corte.
-- Documentar el diccionario de campos calculados (nombre, fórmula, propósito).
-- Agregar control de performance si el volumen de filas CSV crece (extractos vs. live).
