@@ -32,10 +32,9 @@ Dashboard construido en Tableau usando el dataset de **AdventureWorks DW 2022**,
 - Campo calculado tipo `switch/CASE` que devuelve la medida correspondiente según el valor del parámetro:
 
 ```
-CASE [Parámetro Medida]
-    WHEN "Ventas" THEN SUM([SalesAmount])
-    WHEN "Cantidad" THEN SUM([OrderQuantity])
-    WHEN "Utilidad" THEN SUM([Profit])
+CASE [Select Measure] WHEN 'Sales' THEN SUM([F1 Sales Amount])
+                      WHEN 'Quantity' THEN [Quantity Orders]
+                      WHEN 'Profit' THEN sum([Profit])
 END
 ```
 
