@@ -16,6 +16,8 @@ Dashboard construido en Tableau usando el dataset de **AdventureWorks DW 2022**,
 - Organización de campos en **carpetas** dentro del panel de datos, separando medidas, atributos de dimensión y campos calculados por categoría, para mantener el modelo prolijo y navegable.
 - Creación de **jerarquías** (ej. Categoría > Subcategoría > Producto, o Año > Trimestre > Mes) para habilitar drill-down directo desde la vista.
 
+<img width="1062" height="449" alt="image" src="https://github.com/user-attachments/assets/47819cd3-1c42-488d-a0db-06cc8d0ac2bc" />
+
 ---
 
 ## 2. Parámetros
