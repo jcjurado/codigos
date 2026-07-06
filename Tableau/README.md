@@ -5,6 +5,9 @@
 Dashboard construido en Tableau usando el dataset de **AdventureWorks DW 2022**, cargado a partir de archivos **CSV** (tablas de hechos y dimensiones exportadas), en lugar de conexión directa a la base de datos.
 
 ---
+<img width="942" height="596" alt="image" src="https://github.com/user-attachments/assets/925766bb-2ab9-4724-b5c7-c60625050b09" />
+
+<img width="1003" height="598" alt="image" src="https://github.com/user-attachments/assets/2e4503b7-9de9-421e-bef2-31eed406b953" />
 
 ## 1. Modelado de datos
 
