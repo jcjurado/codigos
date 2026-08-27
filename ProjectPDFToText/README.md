@@ -70,7 +70,3 @@ Tiempo de conversión informe_ventas.pdf: 0:00:00.412331
   - Extracción de tablas con `page.extract_table()`.
   - Exportar resultados en formato estructurado (JSON/CSV) además de texto plano.
   - Detección automática de PDFs escaneados para derivarlos a un flujo de OCR.
-
-## 👤 Autor
-
-Proyecto desarrollado como parte de práctica de automatización y procesamiento de datos con Python.
