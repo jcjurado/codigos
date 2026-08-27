@@ -74,6 +74,3 @@ Tiempo de conversión captura_dashboard.jpg: 0:00:00.398781
   - Soporte para múltiples idiomas configurable.
   - Exportar resultados en formato estructurado (JSON/CSV) además de texto plano.
 
-## 👤 Autor
-
-Proyecto desarrollado como parte de práctica de automatización y procesamiento de datos con Python.
